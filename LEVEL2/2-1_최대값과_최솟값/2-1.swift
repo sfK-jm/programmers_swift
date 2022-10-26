@@ -22,3 +22,5 @@ func solution(_ s:String) -> String {
 var num1 : String  = "1 2 3 4 5"
 var num = solution(num1)
 print ("\(num)")
+
+// 1 5

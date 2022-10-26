@@ -39,3 +39,5 @@ var test2 = solution2(test_num1, test_num2)
 
 print("\(test1)")
 print("\(test2)")
+// 29
+// 29
