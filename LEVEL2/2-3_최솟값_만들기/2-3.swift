@@ -1,6 +1,6 @@
 //
-//  main.swift
-//  test
+//  2-3.swift
+//  programmers_swift
 //
 //  Created by 성준모 on 2022/10/26.
 //

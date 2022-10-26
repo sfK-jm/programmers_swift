@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		327A43092908F2E1002164E1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A43082908F2E1002164E1 /* main.swift */; };
+		327A431C2908FD5E002164E1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327A431B2908FD5E002164E1 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		327A43052908F2E1002164E1 /* programmers_swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = programmers_swift; sourceTree = BUILT_PRODUCTS_DIR; };
-		327A43082908F2E1002164E1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		327A43162908FC27002164E1 /* 2-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-1.swift"; sourceTree = "<group>"; };
+		327A43192908FD05002164E1 /* 2-3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-3.swift"; sourceTree = "<group>"; };
+		327A431B2908FD5E002164E1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,21 +56,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		327A43072908F2E1002164E1 /* 최솟값_만들기 */ = {
-			isa = PBXGroup;
-			children = (
-				327A43082908F2E1002164E1 /* main.swift */,
-			);
-			name = "최솟값_만들기";
-			path = "최솟값_만들기";
-			sourceTree = "<group>";
-		};
 		327A430F2908F593002164E1 /* LEVEL2 */ = {
 			isa = PBXGroup;
 			children = (
-				327A43072908F2E1002164E1 /* 최솟값_만들기 */,
+				327A431B2908FD5E002164E1 /* main.swift */,
+				327A43152908FC06002164E1 /* 2-1_최대값과_최솟값 */,
+				327A43182908FCE7002164E1 /* 2-3_최솟값_만들기 */,
 			);
 			path = LEVEL2;
+			sourceTree = "<group>";
+		};
+		327A43152908FC06002164E1 /* 2-1_최대값과_최솟값 */ = {
+			isa = PBXGroup;
+			children = (
+				327A43162908FC27002164E1 /* 2-1.swift */,
+			);
+			name = "2-1_최대값과_최솟값";
+			path = "2-1_최대값과_최솟값";
+			sourceTree = "<group>";
+		};
+		327A43182908FCE7002164E1 /* 2-3_최솟값_만들기 */ = {
+			isa = PBXGroup;
+			children = (
+				327A43192908FD05002164E1 /* 2-3.swift */,
+			);
+			name = "2-3_최솟값_만들기";
+			path = "2-3_최솟값_만들기";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327A43092908F2E1002164E1 /* main.swift in Sources */,
+				327A431C2908FD5E002164E1 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
